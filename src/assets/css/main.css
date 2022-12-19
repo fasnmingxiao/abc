@@ -1,0 +1,21 @@
+
+#paginate-dot button {
+    font-size: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 100rem;
+    outline: none;
+    border: none;
+    background-color: #bcbcbc;
+    transition: all 0.2s linear;
+}
+#paginate-dot button.active {
+    width: 25px;
+    background-color: #fed700;
+}
+.wrapper-dot{
+    position: absolute;
+    left: 212px;
+    bottom: 22px;
+}
+
